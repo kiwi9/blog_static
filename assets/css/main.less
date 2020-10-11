@@ -1,0 +1,38 @@
+body{
+  background-color: #f0f0f0;
+}
+#box{
+  display: flex;
+  min-height: 100vh;
+}
+#side{
+  width: 300px;
+  position: relative;
+  background-color: #fff;
+  header{
+    box-sizing: border-box;
+    position: fixed;
+    width: 300px;
+    padding: 20px;
+    .avator{
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin: 0 auto;
+    }
+    .author{
+      text-align: center;
+      font-weight: 500;
+    }
+    .slogan{
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+}
+#main{
+  flex: 1;
+  overflow-y: auto;
+  padding: 40px;
+}
